@@ -1,2 +1,4 @@
 from bs4 import BeautifulSoup
-print("qwe");
+import requests
+r = requests.get('http://www.10jqka.com')
+print(r.text)
